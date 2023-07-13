@@ -1,0 +1,5 @@
+Use Ctrl + P to list all the files in the tab
+
+Use Ctrl + D to generate a cursor and press Ctrl + D to generate another cursor
+to highlight similar words. After that we can rename text on mulitiple places at once
+
