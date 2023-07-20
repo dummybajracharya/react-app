@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AxiosTest } from "./components/AxiosTest";
 
 function App() {
   const [user, setUser] = useState({
@@ -38,6 +39,8 @@ function App() {
       <h2> Skills - CSharp: {user.skills.csharp}</h2>
       <button onClick={handleUserClick}>Update User </button>
       <button onClick={handleSkillClick}>Update Skill </button>
+
+      <AxiosTest />
     </>
   );
 }
